@@ -1,0 +1,5 @@
+﻿  Project_1_Infix.cpp
+c:\users\shanoa\desktop\project_1_infix\project_1_infix\project_1_infix.cpp(50): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\shanoa\desktop\project_1_infix\project_1_infix\project_1_infix.cpp(154): warning C4018: '<': signed/unsigned mismatch
+c:\users\shanoa\desktop\project_1_infix\project_1_infix\project_1_infix.cpp(147): warning C4715: 'Infix_Evaluator::applyOp': not all control paths return a value
+  Project_1_Infix.vcxproj -> C:\Users\Shanoa\Desktop\Project_1_Infix\Debug\Project_1_Infix.exe
