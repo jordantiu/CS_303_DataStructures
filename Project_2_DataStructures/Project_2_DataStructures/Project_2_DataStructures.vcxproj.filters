@@ -52,5 +52,8 @@
     <Text Include="morse_mod.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="symbols_morse.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

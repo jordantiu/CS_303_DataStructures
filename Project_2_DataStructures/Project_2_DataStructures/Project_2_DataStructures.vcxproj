@@ -167,6 +167,7 @@
     <Text Include="morse.txt" />
     <Text Include="morse_mod.txt" />
     <Text Include="SORTED_MORSE.txt" />
+    <Text Include="symbols_morse.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
