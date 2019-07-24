@@ -5,6 +5,12 @@
 
 #include "BST.h"
 
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <map>
+#include <vector>
+
 
 
 BST::BST()
@@ -12,11 +18,12 @@ BST::BST()
 	root = NULL;
 }
 
-BST::node* BST::CreateLeaf(char key, string code)
+BST::node* BST::CreateLeaf(pair<char, string>data)
 {
+	//might need to rework this portion?
 	node* n = new node;
-	n->key = key;
-	n->code = code;
+	data.first = 'e';
+	data.second = "....";
 
 	n->left = NULL;
 	n->right = NULL;

@@ -1,5 +1,7 @@
-#pragma once
+#include "stdafx.h"
 
+
+#include <iostream>
 #include <string>
 
 using namespace std;
@@ -23,6 +25,6 @@ private:
 
 public:
 	BST();
-	node* CreateLeaf(char key, string code);
+	node* CreateLeaf(pair<char, string>data);
 	void AddLeaf(char key, string code);
 };
