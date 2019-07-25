@@ -31,9 +31,10 @@ private:
 	char dash = '_';
 	int index = 0;
 
-	int encoder_index = 0; //do i need this?
+	
 
 	string encoderPrivate(char target, node* Ptr);
+	string encoder_result;
 
 public:
 
