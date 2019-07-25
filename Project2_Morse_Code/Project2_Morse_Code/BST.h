@@ -28,11 +28,12 @@ private:
 	void AddLeafPrivate(char key, string code, node* Ptr);
 
 	char dot = '.';
-	char dash = '-';
+	char dash = '_';
+	int index = 0;
 
 public:
 
-	BST(); //constructor
+
 
 	//build populate nodes with data from created map
 	void tree_build(map<char, string>map_var);
