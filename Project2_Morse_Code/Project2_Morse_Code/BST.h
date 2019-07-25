@@ -27,14 +27,18 @@ private:
 
 	void AddLeafPrivate(char key, string code, node* Ptr);
 
-	char dot = '.';
-	char dash = '_';
+	const char dot = '.';
+	const char dash = '_';
 	int index = 0;
 
 	
 
 	string encoderPrivate(char target, node* Ptr);
-	string encoder_result;
+	string encoder_result_Private;
+
+	string decoderPrivate(char target, node* Ptr);
+	string decoder_result;
+	int decoder_index = 0;
 
 public:
 
@@ -45,6 +49,8 @@ public:
 	node* CreateLeaf(char key, string code);
 
 	string encoder(string input);
+
+	string decoder(string input);
 	
 
 
