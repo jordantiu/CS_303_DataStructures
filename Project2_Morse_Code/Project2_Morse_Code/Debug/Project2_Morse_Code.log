@@ -1,3 +1,7 @@
 ﻿  Project2_Morse_Code.cpp
 c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project2_morse_code\project2_morse_code\project2_morse_code.cpp(106): warning C4018: '<': signed/unsigned mismatch
-  Project2_Morse_Code.vcxproj -> C:\Users\Shanoa\Desktop\CS 303 Data Structures Projects\CS_303_DataStructures\Project2_Morse_Code\Debug\Project2_Morse_Code.exe
+c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project2_morse_code\project2_morse_code\project2_morse_code.cpp(164): warning C4018: '<': signed/unsigned mismatch
+c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project2_morse_code\project2_morse_code\project2_morse_code.cpp(209): error C2440: '=': cannot convert from 'std::string' to 'char'
+  c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project2_morse_code\project2_morse_code\project2_morse_code.cpp(209): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project2_morse_code\project2_morse_code\project2_morse_code.cpp(223): error C2440: '=': cannot convert from 'std::string' to 'char'
+  c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project2_morse_code\project2_morse_code\project2_morse_code.cpp(223): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called

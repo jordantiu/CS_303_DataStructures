@@ -29,16 +29,17 @@ private:
 
 	const char dot = '.';
 	const char dash = '_';
-	int index = 0;
-
+	const char space = ' ';
 	
-
+	int index = 0;
 	string encoderPrivate(char target, node* Ptr);
 	string encoder_result_Private;
 
-	string decoderPrivate(char target, node* Ptr);
-	string decoder_result;
+	
 	int decoder_index = 0;
+	char decoderPrivate(string target, node*Ptr);
+	char decoder_result_Private;
+	
 
 public:
 
