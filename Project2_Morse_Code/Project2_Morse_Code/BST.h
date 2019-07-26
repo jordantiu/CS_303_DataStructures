@@ -43,19 +43,12 @@ private:
 
 public:
 
-
-
 	//build populate nodes with data from created map
 	void tree_build(map<char, string>map_var);
 	node* CreateLeaf(char key, string code);
 
 	string encoder(string input);
-
 	string decoder(string input);
-	
-
-
-
 
 };
 

@@ -1,5 +1,0 @@
-﻿  Project_2_DataStructures.cpp
-c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project_2_datastructures\project_2_datastructures\project_2_datastructures.cpp(105): warning C4018: '<': signed/unsigned mismatch
-c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project_2_datastructures\project_2_datastructures\project_2_datastructures.cpp(107): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::at': non-standard syntax; use '&' to create a pointer to member
-c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project_2_datastructures\project_2_datastructures\project_2_datastructures.cpp(107): error C2109: subscript requires array or pointer type
-c:\users\shanoa\desktop\cs 303 data structures projects\cs_303_datastructures\project_2_datastructures\project_2_datastructures\project_2_datastructures.cpp(107): error C2530: 'temp': references must be initialized
